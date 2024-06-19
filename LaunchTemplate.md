@@ -38,7 +38,7 @@
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/58f6b8e8-680e-44ab-a086-527e2c0e8d34)
 
 
-** ## And last click on create launch template:-
+* ## And last click on create launch template:-
 
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/f1efc5ef-8f5d-4c14-9183-232d5edc01ba)
