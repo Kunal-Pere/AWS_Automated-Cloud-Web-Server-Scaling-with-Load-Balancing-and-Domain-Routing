@@ -22,3 +22,7 @@
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/512e9ff2-7561-41c9-86b5-ecd14b75702d)
 
 
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/39ca4874-2e35-4f9c-b53a-271104d9a74a)
+
+
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/b02e4309-15f4-4c7e-8114-9b7d06cac61d)
