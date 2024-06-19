@@ -21,3 +21,14 @@
 *  #### Once we done with the hosted zone, select it and inside that create a record and follow the below steps.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/1c8eb010-fb0d-461f-b176-8848a98af27f)
+
+
+
+* ### Now copy the record name as showing below and check it on instance that our traffic is going on both the server or not. Because we have used alias as loadbalncer and we have provided DNS of loadbalancer in alias.
+
+  * ### use below command to check that we can access both server or not.
+ 
+      curl my_project.apache_nginx
+
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/75b8064e-d5ea-4d02-ac79-649f56f370f7)
+
