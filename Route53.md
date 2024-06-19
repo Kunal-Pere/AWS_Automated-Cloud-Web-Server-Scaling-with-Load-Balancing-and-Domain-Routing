@@ -20,3 +20,4 @@
 
 *  #### Once we done with the hosted zone, select it and inside that create a record and follow the below steps.
 
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/1c8eb010-fb0d-461f-b176-8848a98af27f)
