@@ -24,11 +24,11 @@
 
 
 
-* ### Now copy the record name as showing below and check it on instance that our traffic is going on both the server or not. Because we have used alias as loadbalncer and we have provided DNS of loadbalancer in alias.
+* ### Now copy the record name as showing below and check it on instance that our traffic is going on both the server or not. Because we have used alias as loadbalncer and we have provided DNS of loadbalancer in alias as shown in above screenshot.
 
   * ### use below command to check that we can access both server or not.
  
-      curl my_project.apache_nginx
+        curl my_project.apache_nginx
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/75b8064e-d5ea-4d02-ac79-649f56f370f7)
 
