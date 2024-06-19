@@ -27,9 +27,13 @@
 
 ## Install apache web-server on one instance and NGINX is on another using below command.
 
+    Apache2-Machine:-
+    
     sudo apt update
-  
+    
     sudo apt install apache2 -y
+
+    NGINX-Machine:-
 
     sudo apt update
   
@@ -43,7 +47,9 @@ Follow below steps for AMI creation:-
   ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/68f46296-69df-41d0-99dc-5fbc0a78494a)
   
 
+
 ## Create two AMI from instance as we have Apache web server and NGINX web server respectively.
+
 
 
   ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/5cba1e07-feaa-4447-a2fe-032999cf8f81)
