@@ -45,9 +45,10 @@
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/f1efc5ef-8f5d-4c14-9183-232d5edc01ba)
 
 
---------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Here we are done with one single launch template which is for Apache2, now again follow above steps and create one another template for NGINX.
+
 
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/7e667bac-2a5a-4e8a-9f68-5ef9dd866158)
