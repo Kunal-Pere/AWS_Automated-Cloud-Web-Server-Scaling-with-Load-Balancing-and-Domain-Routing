@@ -17,7 +17,7 @@
 * select EBS volume
 * And last click on launch instance.
 
-  create another instance with same configuration and give them name as below:
+  create another instance with same configuration and give name as per below:
   
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/138c5b82-6b2c-453f-97ce-725556a12588)
