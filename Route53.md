@@ -32,3 +32,10 @@
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/75b8064e-d5ea-4d02-ac79-649f56f370f7)
 
+
+## In below screenshot you can see we are able to access our both the web-server through record name which is DNS for us.
+
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/702f0531-83d3-4324-ba32-c402fb92fe93)
+
+
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/82d1be54-7661-4f60-bc42-3f647590ec66)
