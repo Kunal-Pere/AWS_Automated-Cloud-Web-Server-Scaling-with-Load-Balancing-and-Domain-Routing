@@ -1,7 +1,8 @@
 ## Lets create Launch template. Here we are going to create two launch template, one is for  Apache-AMI and another is for NGINX-AMI. It will required when we create a auto-scaling group. follow the below steps to create template.
 
 
-  ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/03fbac0c-4f0d-4299-be28-8132be8bdcba)
+  ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/91e4734f-4660-4ca0-be2c-c1ae52b9cc08)
+
 
 
 
@@ -49,6 +50,7 @@
 ## Here we are done with one single launch template which is for Apache2, now again follow above steps and create one another template for NGINX.
 
 
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/7e667bac-2a5a-4e8a-9f68-5ef9dd866158)
 
 
 
