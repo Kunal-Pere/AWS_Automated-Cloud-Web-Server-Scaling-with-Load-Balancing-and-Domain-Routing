@@ -1,4 +1,4 @@
-### After creating Launch Templates (apache-LT and nginx-LT), let's create two Auto Scaling Groups having apache-LT in one and nginx-LT in another.
+## After creating Launch Templates (apache-LT and nginx-LT), let's create two Auto Scaling Groups having apache-LT in one and nginx-LT in another.
 
 ### Follow the below steps to create Auto Scaling Groups:
 
