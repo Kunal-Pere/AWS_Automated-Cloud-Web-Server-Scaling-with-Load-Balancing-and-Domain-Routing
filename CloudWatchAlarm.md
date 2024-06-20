@@ -1,12 +1,16 @@
-Now, we will create CloudWatch Alarms with SNS Topic so we can use them in our Scaling Policy
-Let's create below CloudWatch Alarms to trigger the Auto Scaling event
+## Now, we will create CloudWatch Alarms with SNS Topic so we can use them in our Scaling Policy Let's create below CloudWatch Alarms to trigger the Auto Scaling event
 
-When CPU Utilization of apache-server is >=80 %
-When CPU Utilization of apache-server is <=60 %
-When CPU Utilization of nginx-server is >=80 %
-When CPU Utilization of nginx-server is <=60 %
-Steps are as follows
-Go to CloudWatch ==> All Alarms ==> Create Alarm
+* When CPU Utilization of apache-server is >=80 %
+
+* When CPU Utilization of apache-server is <=60 %
+
+* When CPU Utilization of nginx-server is >=80 %
+
+* When CPU Utilization of nginx-server is <=60 %
+* 
+#### Steps are as follows
+
+* Go to CloudWatch ==> All Alarms ==> Create Alarm
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/9582a55f-a0a8-41e3-ae7d-8e058319cf00)
 
