@@ -74,7 +74,9 @@ Select the action which should happen after triggering selected alarm and click 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/7f92849b-2c0f-4e38-84d8-122091712a53)
 
 
-### Follow the above procedure and create the same for the scalling out when CPU utilization is equal to or above 80 %
+Follow the above procedure and create the scaling policy for adding instances when CPU utilization is equal to or above 80 %
+
+We have created both Scale-in and Scale-out policies as shown below.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/962c2140-9911-4d04-9316-0b044443a8fe)
 
