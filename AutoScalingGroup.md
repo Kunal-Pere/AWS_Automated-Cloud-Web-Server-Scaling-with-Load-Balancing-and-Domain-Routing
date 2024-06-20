@@ -46,8 +46,9 @@ Review the all selections and click on "Create Auto Scaling Group"
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/42c6f395-8580-46da-aa38-d298970a47c8)
 
-We just created nginx-ASG. Similarly follow the above steps and create apache-ASG having apache-LT Launch Template
-Now, both the Auto Scaling Groups are created as shown below
+
+## We just created nginx-ASG. Similarly follow the above steps and create apache-ASG having apache-LT Launch Template Now, both the Auto Scaling Groups are created as shown below
+
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/4a70d497-8f38-4a98-b473-ebb1488e211a)
 
