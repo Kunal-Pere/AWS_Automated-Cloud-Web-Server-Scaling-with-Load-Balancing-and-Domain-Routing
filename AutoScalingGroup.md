@@ -56,13 +56,20 @@ We can see 4 instances got created (2 of apache-server and 2 of nginx-server)
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/da519d07-dbf5-4317-bce2-21983841499d)
 
-Now we need to add the Auto scaling Policies in apache-ASG and nginx-ASG so that it will add or remove the instances as per the CPU Utilization
+Now we need to add the Auto Scaling Policies in apache-ASG and nginx-ASG so that it will add or remove the instances as per the CPU Utilization
+
 For that follow the below steps
-Let's create scale in policy in nginx-ASG for scaling in when CPU utilization is equal to or below 60 %
- 
-Follow the above procedure and create the same for the scalling out when CPU utilization is equal to or above 80 %
- 
-Similarly create the scale in and scale out policies for apache-ASG
+Let's create scale-in policy in nginx-ASG for removing instances when CPU utilization is equal to or below 60 %
+
+Open nginx-ASG ==> Automatic Scaling ==> Create Dynamic Scaling Policy
+
+Select Policy type as Simple Scaling
+
+Give the name to your policy
+
+Select CloudWatch Alarm from drop down menu (Nginx_CPU_Utilization_<=60%)
+
+Select the action which should happen after triggering selected alarm and click on Create
  
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/7f92849b-2c0f-4e38-84d8-122091712a53)
 
