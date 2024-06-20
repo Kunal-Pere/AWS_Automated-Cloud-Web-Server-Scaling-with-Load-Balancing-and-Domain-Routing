@@ -46,4 +46,7 @@
 
 * Click on Create Topic
 
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/7306ac75-3325-42df-b94c-5d25421c13d8)
 
+
+* Give alarm name and click on next
