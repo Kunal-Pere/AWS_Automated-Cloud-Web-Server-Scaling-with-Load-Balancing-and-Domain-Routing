@@ -85,7 +85,7 @@ Review the all selections and click on "Create Auto Scaling Group"
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/962c2140-9911-4d04-9316-0b044443a8fe)
 
 
-### Similarly create the scale in and scale out policies for apache-ASG
+### Similarly create the scale in and scale out policies for apache-ASG too.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/8433c9c2-0cff-4266-9e85-5a1a76214b2d)
 
