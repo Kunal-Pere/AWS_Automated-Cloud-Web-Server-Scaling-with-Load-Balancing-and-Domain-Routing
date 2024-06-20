@@ -7,7 +7,7 @@
 * When CPU Utilization of nginx-server is >=80 %
 
 * When CPU Utilization of nginx-server is <=60 %
-* 
+  
 #### Steps are as follows
 
 * Go to CloudWatch ==> All Alarms ==> Create Alarm
