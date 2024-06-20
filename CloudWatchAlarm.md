@@ -14,10 +14,10 @@
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/9582a55f-a0a8-41e3-ae7d-8e058319cf00)
 
-First let's create alarm to trigger auto scaling policy when CPU Utilization of apache-server is equal to or above 80 %
+### First let's create alarm to trigger auto scaling policy when CPU Utilization of apache-server is equal to or above 80 %
 
-Specify metric and conditions
-Click on Select metric option
+* Specify metric and conditions
+* Click on Select metric option
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/b64bf228-dd60-46b2-93a3-296117e960ba)
 
