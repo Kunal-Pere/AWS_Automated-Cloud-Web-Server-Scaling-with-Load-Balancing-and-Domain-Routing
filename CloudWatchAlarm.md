@@ -35,16 +35,8 @@
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/e42227da-4997-4b97-b195-c25695bbe012)
 
-Preview and click on Create Alarm
-
-Follow the same steps given above to create Alarms for below conditions :
-To trigger auto scaling policy when CPU Utilization of apache-server is equal to or below 60 % (Create SNS topic in this for CloudWatch_Alarms_below_60%)
-
-To trigger auto scaling policy when CPU Utilization of nginx-server goes above or equal to 80 % (use "CloudWatch_Alarms_above_80" SNS topic)
-
-To trigger auto scaling policy when CPU Utilization of nginx-server is equal to or below 60 % (use "CloudWatch_Alarms_below_60" SNS topic)
-
 Our alarms are now created
+
 * i.e. If the maximum CPU Utilization within given Period of 1 minute is equal to or above (Greater / Equal >= threshold) our threshold 
   value of 80, then trigger the alarm.
 
