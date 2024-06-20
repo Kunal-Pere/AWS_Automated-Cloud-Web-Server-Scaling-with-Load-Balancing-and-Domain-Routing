@@ -52,14 +52,17 @@ Review the all selections and click on "Create Auto Scaling Group"
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/4a70d497-8f38-4a98-b473-ebb1488e211a)
 
-After creation, you will see the instances are created exactly equal to the desired capacity (2) given in each Auto Scaling Group.
-We can see 4 instances got created (2 of apache-server and 2 of nginx-server)
+
+## After creation, you will see the instances are created exactly equal to the desired capacity (2) given in each Auto Scaling Group.We can see 4 instances got created (2 of apache-server and 2 of nginx-server)
+
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/da519d07-dbf5-4317-bce2-21983841499d)
 
-Now we need to add the Auto Scaling Policies in apache-ASG and nginx-ASG so that it will add or remove the instances as per the CPU Utilization
+
+## Now we need to add the Auto Scaling Policies in apache-ASG and nginx-ASG so that it will add or remove the instances as per the CPU Utilization
 
 For that follow the below steps
+
 Let's create scale-in policy in nginx-ASG for removing instances when CPU utilization is equal to or below 60 %
 
 Open nginx-ASG ==> Automatic Scaling ==> Create Dynamic Scaling Policy
