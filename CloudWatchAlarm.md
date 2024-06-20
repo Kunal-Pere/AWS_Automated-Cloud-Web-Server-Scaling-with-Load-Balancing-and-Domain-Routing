@@ -66,58 +66,60 @@ Our alarms are now created
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/4bd58443-f41c-446b-9e39-69f4ddcd1823)
 
 
-Preview and click on Create Alarm
+#### Preview and click on Create Alarm
 
-Follow the same steps given above to create Alarms for below conditions :
-To trigger auto scaling policy when CPU Utilization of apache-server is equal to or below 60 % (Create SNS topic in this for CloudWatch_Alarms_below_60%)
+#### Follow the same steps given above to create Alarms for below conditions :
 
-To trigger auto scaling policy when CPU Utilization of nginx-server goes above or equal to 80 % (use "CloudWatch_Alarms_above_80" SNS topic)
+#### To trigger auto scaling policy when CPU Utilization of apache-server is equal to or below 60 % (Create SNS topic in this for CloudWatch_Alarms_below_60%)
 
-To trigger auto scaling policy when CPU Utilization of nginx-server is equal to or below 60 % (use "CloudWatch_Alarms_below_60" SNS topic)
+#### To trigger auto scaling policy when CPU Utilization of nginx-server goes above or equal to 80 % (use "CloudWatch_Alarms_above_80" SNS topic)
 
-Our alarms are now created
+#### To trigger auto scaling policy when CPU Utilization of nginx-server is equal to or below 60 % (use "CloudWatch_Alarms_below_60" SNS topic)
+
+#### Our alarms are now created
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/5d3b03b1-8f09-43d6-a941-94cf5cc7a44c)
 
-We can create a dashboard so that we can see the CPU Utilization of both the servers on the graph
+#### We can create a dashboard so that we can see the CPU Utilization of both the servers on the graph
 
-Follow below steps to create Custom Dashboard
+#### Follow below steps to create Custom Dashboard
 
-Go to CloudWatch ==> Dashboards ==> Create Dashboard
+* #### Go to CloudWatch ==> Dashboards ==> Create Dashboard
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/199ce0e3-8374-493d-9562-b9d2216d8f38)
 
-Give a meaningful name to your dashboard.
+#### Give a meaningful name to your dashboard.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/368e1bd7-58a0-4850-acf3-8299379abf66)
 
-Select Data Source as CloudWatch, Data Type as Metrics and click on Next
+#### Select Data Source as CloudWatch, Data Type as Metrics and click on Next
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/d2cb9f6e-13e3-4f07-b21d-0cff29e00e0f)
 
 
-In Metrics, go to EC2 ==> By Auto Scaling Group and search for CPUUtilization in search box.
+#### In Metrics, go to EC2 ==> By Auto Scaling Group and search for CPUUtilization in search box.
 
-You will see apache-ASG and nginx-ASG. Select both and click on Create Widget.
+#### You will see apache-ASG and nginx-ASG. Select both and click on Create Widget.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/f26cd0fa-af33-4d3c-9afa-33535a8a0335)
 
 
-Make the changes on the next screen as you want and click on Save button.
+#### Make the changes on the next screen as you want and click on Save button.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/baf7e46e-40fa-463e-a441-1111beeaa455)
 
-We can see in Amazon SNS service (Simple Notification Service), that our SNS Topics are now created.
+#### We can see in Amazon SNS service (Simple Notification Service), that our SNS Topics are now created.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/42239082-0d70-41f9-96ca-9f35bc4e0fd2)
 
-You will receive the AWS Notifications over email similar to shown below for confirmation of subscription.
+#### You will receive the AWS Notifications over email similar to shown below for confirmation of subscription.
 
-Click on Confirm Subscription to receive the notifications when your alarm triggers.
+#### Click on Confirm Subscription to receive the notifications when your alarm triggers.
 
 ![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/4c8d1eb9-536f-4324-b503-2ebf16411ee3)
 
 
-Now you can see subscription status is "Confirmed" now
+#### Now you can see subscription status is "Confirmed" now
 
+![image](https://github.com/Kunal-Pere/AWS_Automated-Cloud-Web-Server-Scaling-with-Load-Balancing-and-Domain-Routing/assets/157100045/5c7b1046-2600-413f-aa4f-980320363af0)
 
